@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 3f116fca74fc1134cb351e6c6c51f28c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ceiling
+    100002: //RootNode
+    100004: Factory_Base
+    100006: Ladder
+    100008: CeilingSingle
+    100010: Box001
+    100012: Box002
+    100014: Box003
+    100016: Box004
+    100018: Plane001
+    100020: Plane002
+    100022: Plane003
+    100024: Plane004
+    100026: SmallShed
+    100028: C
+    100030: H
+    100032: RopeSupport
+    100034: SteelCable
+    100036: CeilingSingleBroken
+    400000: Ceiling
+    400002: //RootNode
+    400004: Factory_Base
+    400006: Ladder
+    400008: CeilingSingle
+    400010: Box001
+    400012: Box002
+    400014: Box003
+    400016: Box004
+    400018: Plane001
+    400020: Plane002
+    400022: Plane003
+    400024: Plane004
+    400026: SmallShed
+    400028: C
+    400030: H
+    400032: RopeSupport
+    400034: SteelCable
+    400036: CeilingSingleBroken
+    2100000: 'Material #103'
+    2100002: 'Material #102 Slot #7'
+    2100004: No Name
+    2300000: Ceiling
+    2300002: Factory_Base
+    2300004: Ladder
+    2300006: CeilingSingle
+    2300008: Box001
+    2300010: Box002
+    2300012: Box003
+    2300014: Box004
+    2300016: Plane001
+    2300018: Plane002
+    2300020: Plane003
+    2300022: Plane004
+    2300024: SmallShed
+    2300026: C
+    2300028: H
+    2300030: RopeSupport
+    2300032: SteelCable
+    2300034: CeilingSingleBroken
+    3300000: Ceiling
+    3300002: Factory_Base
+    3300004: Ladder
+    3300006: CeilingSingle
+    3300008: Box001
+    3300010: Box002
+    3300012: Box003
+    3300014: Box004
+    3300016: Plane001
+    3300018: Plane002
+    3300020: Plane003
+    3300022: Plane004
+    3300024: SmallShed
+    3300026: C
+    3300028: H
+    3300030: RopeSupport
+    3300032: SteelCable
+    3300034: CeilingSingleBroken
+    4300000: Factory_Base
+    4300002: Ladder
+    4300004: Ceiling
+    4300006: CeilingSingle
+    4300008: Box001
+    4300010: Plane001
+    4300012: Box002
+    4300014: Plane002
+    4300016: Box003
+    4300018: Box004
+    4300020: Plane003
+    4300022: Plane004
+    4300024: SmallShed
+    4300026: H
+    4300028: C
+    4300030: RopeSupport
+    4300032: SteelCable
+    4300034: CeilingSingleBroken
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.012
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.012
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
