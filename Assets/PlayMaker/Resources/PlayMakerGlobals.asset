@@ -56,3 +56,5 @@ MonoBehaviour:
   - ProcessDone
   - Hit
   - Reset
+  - TouchPortal
+  - TurnOff
