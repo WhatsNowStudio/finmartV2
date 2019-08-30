@@ -58,3 +58,5 @@ MonoBehaviour:
   - Reset
   - TouchPortal
   - TurnOff
+  - Level_SafetyRope
+  - Level_Start
