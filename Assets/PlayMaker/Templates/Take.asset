@@ -24,7 +24,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 82
+        x: 114
         y: 193
         width: 100
         height: 16
@@ -85,7 +85,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 235
+        x: 267
         y: 133
         width: 104.4
         height: 32
@@ -229,7 +229,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 529
+        x: 561
         y: 105
         width: 100
         height: 32
@@ -390,7 +390,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 383
+        x: 415
         y: 149
         width: 100
         height: 48
@@ -426,7 +426,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00010101
+        actionIsOpen: 00000000
         actionStartIndex: 00000000020000000600000009000000
         actionHashCodes: d97b7202ea32a1059ff80c0216592803
         unityObjectParams: []
@@ -574,8 +574,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 213
-        y: 523
+        x: 238
+        y: 522
         width: 100
         height: 32
       isBreakpoint: 0
@@ -682,8 +682,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 216
-        y: 589.0078
+        x: 240
+        y: 578.0078
         width: 100
         height: 16
       isBreakpoint: 0
@@ -803,11 +803,11 @@ MonoBehaviour:
         paramDataPos: 0000000000000000000000000100000001000000000000000000000001000000020000000000000001000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000100000001000000
     - name: "\u7269\u4EF6\u9084\u5728?"
-      description: "#\u5728\u4E16\u754C\u4E0A?\n#\u5728\u624B\u4E0A?"
+      description: "#\u662F\u9264\u5B50?\n#\u5728\u4E16\u754C\u4E0A?\n#\u5728\u624B\u4E0A?"
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 203
+        x: 235
         y: 398
         width: 100
         height: 48
@@ -839,7 +839,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0101
+        actionIsOpen: 0001
         actionStartIndex: 0000000005000000
         actionHashCodes: 1565620557d56a01
         unityObjectParams: []
@@ -925,7 +925,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 530
+        x: 562
         y: 189
         width: 100
         height: 16
@@ -1067,7 +1067,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 193
+        x: 225
         y: 312
         width: 130.4
         height: 32
@@ -1183,8 +1183,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 63
-        y: 414
+        x: 59
+        y: 422
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1301,20 +1301,8 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: 
-      - useVariable: 1
-        name: String/TargetName
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: 
       vector2Variables: []
-      vector3Variables:
-      - useVariable: 1
-        name: V3/Public
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {x: 0, y: 0, z: 0}
+      vector3Variables: []
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
@@ -1355,33 +1343,14 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: {fileID: 0}
-      - useVariable: 1
-        name: Obj/Public
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
-      arrayVariables:
-      - useVariable: 1
-        name: Array/Bag/Now
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        type: 4
-        objectTypeName: UnityEngine.Object
-        floatValues: []
-        intValues: 
-        boolValues: 
-        stringValues: []
-        vector4Values: []
-        objectReferences: []
+      arrayVariables: []
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
