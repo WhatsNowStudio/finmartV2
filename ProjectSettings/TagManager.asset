@@ -12,6 +12,7 @@ TagManager:
   - MoveCollider
   - Floor
   - Rope
+  - Accident
   layers:
   - Default
   - TransparentFX
