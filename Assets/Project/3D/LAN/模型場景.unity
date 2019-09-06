@@ -340,11 +340,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u89D2\u827202"
       objectReference: {fileID: 0}
-    - target: {fileID: 4206881833031268714, guid: 4d686d322d1700944b909d9c35543586,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4206881833030837578, guid: 4d686d322d1700944b909d9c35543586,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -409,6 +404,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7294788790814617932, guid: 068f7c58b2fdd5d489934228a14ac2e3,
+        type: 3}
+      propertyPath: m_Name
+      value: "\u5B89\u5168\u5E36"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294788790814617932, guid: 068f7c58b2fdd5d489934228a14ac2e3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7294788790814911852, guid: 068f7c58b2fdd5d489934228a14ac2e3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -463,11 +468,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7294788790814617932, guid: 068f7c58b2fdd5d489934228a14ac2e3,
-        type: 3}
-      propertyPath: m_Name
-      value: "\u5B89\u5168\u5E36"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 068f7c58b2fdd5d489934228a14ac2e3, type: 3}
@@ -1046,6 +1046,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6739617243048161630, guid: d405248bc2d863a4bb65b2644bf927f1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88c62de37327083419611f8304109831, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d405248bc2d863a4bb65b2644bf927f1, type: 3}
 --- !u!1001 &6816618510180415072
@@ -1059,11 +1064,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "\u5B89\u5168\u5E3D"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3772598167567018718, guid: 1031d6ddfcc35a949855f83965543576,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3772598167566595838, guid: 1031d6ddfcc35a949855f83965543576,
         type: 3}
