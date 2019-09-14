@@ -74,3 +74,4 @@ MonoBehaviour:
   - GameOver
   - SpaceResetDone
   - ForceJump
+  - Level_SolarPanels

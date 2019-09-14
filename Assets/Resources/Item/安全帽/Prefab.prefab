@@ -103,6 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2938298305668327914}
   - component: {fileID: 1183759732012171567}
+  - component: {fileID: 1231383833319724881}
   m_Layer: 0
   m_Name: Prefab
   m_TagString: Untagged
@@ -139,6 +140,25 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300006, guid: 90ce664343e28e44cbac7908dbfe9522, type: 3}
+--- !u!95 &1231383833319724881
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2938298305668036042}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 134a202c97a335a438dbd25b98951e74, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4816199060096365422
 GameObject:
   m_ObjectHideFlags: 0
