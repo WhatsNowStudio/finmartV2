@@ -3611,7 +3611,13 @@ MonoBehaviour:
     variables:
       floatVariables: []
       intVariables: []
-      boolVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: Bool/Public
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       stringVariables:
       - useVariable: 1
         name: String/NoticeFsm/A
@@ -3644,7 +3650,7 @@ MonoBehaviour:
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
-        name: Owner
+        name: Obj/Owner
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -3656,17 +3662,23 @@ MonoBehaviour:
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
-        name: Obj/Bag
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {fileID: 0}
-      - useVariable: 1
         name: Obj/Notice/A
         tooltip: 
         showInInspector: 1
         networkSync: 0
         value: {fileID: 1744929773379188326}
+      - useVariable: 1
+        name: Obj/OtherHand
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 976534751002805921}
+      - useVariable: 1
+        name: Obj/Pubic
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -3674,7 +3686,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -4152,7 +4164,13 @@ MonoBehaviour:
     variables:
       floatVariables: []
       intVariables: []
-      boolVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: Bool/Public
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       stringVariables:
       - useVariable: 1
         name: String/NoticeFsm/A
@@ -4185,7 +4203,7 @@ MonoBehaviour:
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
-        name: Owner
+        name: Obj/Owner
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -4197,17 +4215,23 @@ MonoBehaviour:
         networkSync: 0
         value: {fileID: 0}
       - useVariable: 1
-        name: Obj/Bag
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {fileID: 0}
-      - useVariable: 1
         name: Obj/Notice/A
         tooltip: 
         showInInspector: 1
         networkSync: 0
         value: {fileID: 1744929773379188326}
+      - useVariable: 1
+        name: Obj/OtherHand
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 929311352904999954}
+      - useVariable: 1
+        name: Obj/Pubic
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -4215,7 +4239,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -7121,7 +7145,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Array/Bag/Level_Save
+          value: Array/Bag/Level_SolarPanels
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams:
@@ -7287,7 +7311,7 @@ MonoBehaviour:
         boolValues: 
         stringValues:
         - "\u5B89\u5168\u5E3D_1.0"
-        - "\u6AA2\u4FEE\u55AE\u592A\u967D\u80FD\u677F_1.0"
+        - 
         - "\u5B89\u5168\u80CC\u5FC3_0.5"
         - 
         - "\u5B89\u5168\u6BCD\u7D22_0.5"
@@ -7308,7 +7332,7 @@ MonoBehaviour:
         stringValues:
         - 
         - 
-        - "\u7D05\u5916\u7DDA_1.0"
+        - "\u7D05\u5916\u7DDA_0.7"
         - 
         - "\u6AA2\u4FEE\u55AE\u592A\u967D\u80FD\u677F_1.0"
         - 
@@ -12351,6 +12375,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5593661610965501683, guid: ac0dea6d77299f9498bb912e12e66a5d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac0dea6d77299f9498bb912e12e66a5d, type: 3}
 --- !u!4 &5593661610172330267 stripped
@@ -12425,6 +12454,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5593661610965501683, guid: ac0dea6d77299f9498bb912e12e66a5d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac0dea6d77299f9498bb912e12e66a5d, type: 3}
