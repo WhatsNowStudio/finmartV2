@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &628570330532391801
+--- !u!1 &6021307443159400643
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8129675043263734418}
-  - component: {fileID: 7969976990745582418}
+  - component: {fileID: 3162848774834014504}
+  - component: {fileID: 3867978061357543656}
   m_Layer: 0
   m_Name: Prefab
   m_TagString: Untagged
@@ -17,28 +17,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8129675043263734418
+--- !u!4 &3162848774834014504
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 628570330532391801}
+  m_GameObject: {fileID: 6021307443159400643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1226126020676879174}
+  - {fileID: 5346557034204113148}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7969976990745582418
+--- !u!64 &3867978061357543656
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 628570330532391801}
+  m_GameObject: {fileID: 6021307443159400643}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
@@ -46,12 +46,12 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300002, guid: 57d5e13587165fd4ba85c61ac9e7fcc8, type: 3}
---- !u!1001 &8374541225726389802
+--- !u!1001 &3390791102551033232
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 8129675043263734418}
+    m_TransformParent: {fileID: 3162848774834014504}
     m_Modifications:
     - target: {fileID: 7294788790814617932, guid: 068f7c58b2fdd5d489934228a14ac2e3,
         type: 3}
@@ -113,12 +113,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7796005460107812300, guid: 068f7c58b2fdd5d489934228a14ac2e3, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 068f7c58b2fdd5d489934228a14ac2e3, type: 3}
---- !u!4 &1226126020676879174 stripped
+--- !u!4 &5346557034204113148 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7294788790814911852, guid: 068f7c58b2fdd5d489934228a14ac2e3,
     type: 3}
-  m_PrefabInstance: {fileID: 8374541225726389802}
+  m_PrefabInstance: {fileID: 3390791102551033232}
   m_PrefabAsset: {fileID: 0}
