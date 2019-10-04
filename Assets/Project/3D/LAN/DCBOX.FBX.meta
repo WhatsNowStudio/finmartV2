@@ -66,6 +66,8 @@ ModelImporter:
     100120: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(2)"
     100122: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(3)"
     100124: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(4)"
+    100126: "\u5167\u84CB"
+    100128: "\u5916\u84CB"
     400000: Cylinder001
     400002: Cylinder002
     400004: Cylinder003
@@ -129,6 +131,8 @@ ModelImporter:
     400120: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(2)"
     400122: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(3)"
     400124: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(4)"
+    400126: "\u5167\u84CB"
+    400128: "\u5916\u84CB"
     2100000: gray
     2100002: plastic
     2100004: silver
@@ -204,6 +208,8 @@ ModelImporter:
     2300118: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(2)"
     2300120: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(3)"
     2300122: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(4)"
+    2300124: "\u5167\u84CB"
+    2300126: "\u5916\u84CB"
     3300000: Cylinder001
     3300002: Cylinder002
     3300004: Cylinder003
@@ -266,6 +272,8 @@ ModelImporter:
     3300118: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(2)"
     3300120: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(3)"
     3300122: "\u76F4\u6D41\u4FDD\u96AA\u5EA7(4)"
+    3300124: "\u5167\u84CB"
+    3300126: "\u5916\u84CB"
     4300000: DC BOX
     4300002: Object007
     4300004: "\u5DE6_\u76F4\u6D41\u96E2\u65B7\u958B\u95DC_\u672C\u9AD4"
@@ -328,6 +336,8 @@ ModelImporter:
     4300118: Rectangle062
     4300120: Rectangle063
     4300122: Rectangle064
+    4300124: "\u5167\u84CB"
+    4300126: "\u5916\u84CB"
   externalObjects: {}
   materials:
     importMaterials: 1
