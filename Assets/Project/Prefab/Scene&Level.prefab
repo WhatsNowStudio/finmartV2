@@ -14262,7 +14262,8 @@ GameObject:
   - component: {fileID: 7705184726298531521}
   - component: {fileID: 885178046622426708}
   - component: {fileID: 7039536750518829382}
-  - component: {fileID: 1549751176112976626}
+  - component: {fileID: 1465081152991482526}
+  - component: {fileID: 5202832518580919155}
   m_Layer: 0
   m_Name: "\u53F3_\u76F4\u6D41\u96E2\u65B7\u958B\u95DC_\u65CB\u8F49\u9215"
   m_TagString: Untagged
@@ -14344,7 +14345,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019627113, y: 0.02721076, z: 0.0060413755}
   m_Center: {x: 0.00000047683716, y: -0.003940916, z: 0.0030206877}
---- !u!114 &1549751176112976626
+--- !u!114 &1465081152991482526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14495,8 +14496,27 @@ MonoBehaviour:
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
-  fsmTemplate: {fileID: 11400000, guid: c7ce930cbb3ec6e4b91c5b8e8eccc708, type: 2}
+  fsmTemplate: {fileID: 11400000, guid: 4872f6fa322b1fd4bb67d8b08fd944cc, type: 2}
   eventHandlerComponentsAdded: 1
+--- !u!95 &5202832518580919155
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908028641055255911}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d874590a9c842bd498034df545898f8e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1964520701207775281
 GameObject:
   m_ObjectHideFlags: 0
@@ -27499,13 +27519,13 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
-    - name: State 1
+    - name: "\u5224\u65B7\u7269\u4EF6"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 233
-        y: 239
+        x: 191
+        y: 261
         width: 100
         height: 16
       isBreakpoint: 0
@@ -27513,14 +27533,38 @@ MonoBehaviour:
       hideUnused: 0
       transitions: []
       actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetEventInfo
+        - HutongGames.PlayMaker.Actions.GetName
+        - HutongGames.PlayMaker.Actions.StringSwitch
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 000001
+        actionStartIndex: 000000000f00000012000000
+        actionHashCodes: d9ade60371c75a0376d0e601
         unityObjectParams: []
-        fsmGameObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Obj/Sender
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
+        - useVariable: 1
+          name: Obj/Sender
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {fileID: 0}
         fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
@@ -27528,29 +27572,205 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: String/Public
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 1
+          name: String/Public
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0}
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 0, g: 0, b: 0, a: 1}
+        fsmRectParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+        fsmQuaternionParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0, w: 0}
+        stringParams:
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        byteData: 0000
+        arrayParamSizes: 0600000006000000
+        arrayParamTypes:
+        - HutongGames.PlayMaker.FsmString
+        - HutongGames.PlayMaker.FsmEvent
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
+        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e0000002300000020000000210000001900000018000000130000001200000001000000120000000c0000001200000012000000120000001200000012000000120000000c00000017000000170000001700000017000000170000001700000001000000
+        paramName:
+        - sentByGameObject
+        - fsmName
+        - getBoolData
+        - getIntData
+        - getFloatData
+        - getVector2Data
+        - getVector3Data
+        - getStringData
+        - getGameObjectData
+        - getRectData
+        - getQuaternionData
+        - getMaterialData
+        - getTextureData
+        - getColorData
+        - getObjectData
+        - gameObject
+        - storeName
+        - everyFrame
+        - stringVariable
+        - compareTo
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - sendEvent
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+        - everyFrame
+        paramDataPos: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000001000000000000000200000002000000020000000000000003000000000000000400000005000000060000000700000008000000090000000100000000000000010000000200000003000000040000000500000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     events:
     - name: Click
       isSystemEvent: 0
@@ -27571,7 +27791,7 @@ MonoBehaviour:
         name: Click
         isSystemEvent: 0
         isGlobal: 1
-      toState: State 1
+      toState: "\u5224\u65B7\u7269\u4EF6"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -27579,13 +27799,25 @@ MonoBehaviour:
       floatVariables: []
       intVariables: []
       boolVariables: []
-      stringVariables: []
+      stringVariables:
+      - useVariable: 1
+        name: String/Public
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
-      gameObjectVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: Obj/Sender
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -27593,7 +27825,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 
+      variableCategoryIDs: 0000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -33478,7 +33710,8 @@ GameObject:
   - component: {fileID: 2834281964405407808}
   - component: {fileID: 1439561668752680635}
   - component: {fileID: 4324941261892816990}
-  - component: {fileID: 6810586809984699166}
+  - component: {fileID: 2533497270005974273}
+  - component: {fileID: 8906249884029288790}
   m_Layer: 0
   m_Name: "\u5DE6_\u76F4\u6D41\u96E2\u65B7\u958B\u95DC_\u65CB\u8F49\u9215"
   m_TagString: Untagged
@@ -33560,7 +33793,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.019627113, y: 0.02721076, z: 0.0060413755}
   m_Center: {x: 1.4000947e-17, y: -0.003940916, z: 0.0030206877}
---- !u!114 &6810586809984699166
+--- !u!95 &2533497270005974273
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5244568118583934627}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d874590a9c842bd498034df545898f8e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8906249884029288790
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33711,7 +33963,7 @@ MonoBehaviour:
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
-  fsmTemplate: {fileID: 11400000, guid: c7ce930cbb3ec6e4b91c5b8e8eccc708, type: 2}
+  fsmTemplate: {fileID: 11400000, guid: 4872f6fa322b1fd4bb67d8b08fd944cc, type: 2}
   eventHandlerComponentsAdded: 1
 --- !u!1 &5258931058775487762
 GameObject:
@@ -40909,7 +41161,8 @@ GameObject:
   - component: {fileID: 5756722506211511083}
   - component: {fileID: 263221752833653364}
   - component: {fileID: 9065190933811901059}
-  - component: {fileID: 8696098452385481791}
+  - component: {fileID: 27619374803720775}
+  - component: {fileID: 2360534151732154524}
   m_Layer: 0
   m_Name: "\u76F4\u6D41\u4FDD\u96AA\u5EA73"
   m_TagString: Untagged
@@ -40993,7 +41246,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05783403, y: 0.039159887, z: 0.026862655}
   m_Center: {x: -0.0000619339, y: 0.017613292, z: -0.008218535}
---- !u!114 &8696098452385481791
+--- !u!95 &27619374803720775
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7124529720903495455}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8115cbe232a113b4da1a5a8697b38ed7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2360534151732154524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41068,7 +41340,13 @@ MonoBehaviour:
     variables:
       floatVariables: []
       intVariables: []
-      boolVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: Bool/OnOff
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       stringVariables:
       - useVariable: 1
         name: String/Fsm
@@ -41101,7 +41379,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -41144,7 +41422,7 @@ MonoBehaviour:
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
-  fsmTemplate: {fileID: 11400000, guid: c7ce930cbb3ec6e4b91c5b8e8eccc708, type: 2}
+  fsmTemplate: {fileID: 11400000, guid: 4872f6fa322b1fd4bb67d8b08fd944cc, type: 2}
   eventHandlerComponentsAdded: 1
 --- !u!1 &7141285309088158793
 GameObject:
@@ -44594,7 +44872,8 @@ GameObject:
   - component: {fileID: 347350052137931493}
   - component: {fileID: 2395347833931721001}
   - component: {fileID: 9167591162254561753}
-  - component: {fileID: 2155466856074218769}
+  - component: {fileID: 5643199932780277664}
+  - component: {fileID: 1239704745051138751}
   m_Layer: 0
   m_Name: "\u76F4\u6D41\u4FDD\u96AA\u5EA74"
   m_TagString: Untagged
@@ -44678,7 +44957,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05783403, y: 0.03915989, z: 0.026862657}
   m_Center: {x: -0.000061932034, y: 0.017613543, z: -0.008218523}
---- !u!114 &2155466856074218769
+--- !u!95 &5643199932780277664
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063918226483891555}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8115cbe232a113b4da1a5a8697b38ed7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1239704745051138751
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -44753,7 +45051,13 @@ MonoBehaviour:
     variables:
       floatVariables: []
       intVariables: []
-      boolVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: Bool/OnOff
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       stringVariables:
       - useVariable: 1
         name: String/Fsm
@@ -44786,7 +45090,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -44829,7 +45133,7 @@ MonoBehaviour:
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
-  fsmTemplate: {fileID: 11400000, guid: c7ce930cbb3ec6e4b91c5b8e8eccc708, type: 2}
+  fsmTemplate: {fileID: 11400000, guid: 4872f6fa322b1fd4bb67d8b08fd944cc, type: 2}
   eventHandlerComponentsAdded: 1
 --- !u!1 &8095258548093760865
 GameObject:
@@ -47678,7 +47982,8 @@ GameObject:
   - component: {fileID: 538087836752712558}
   - component: {fileID: 1368657045183757837}
   - component: {fileID: 2574623027716674617}
-  - component: {fileID: 3086250981654035167}
+  - component: {fileID: 1873650062402920739}
+  - component: {fileID: 6095040187955711289}
   m_Layer: 0
   m_Name: "\u76F4\u6D41\u4FDD\u96AA\u5EA72"
   m_TagString: Untagged
@@ -47762,7 +48067,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05783403, y: 0.03915989, z: 0.026862657}
   m_Center: {x: -0.00006193017, y: 0.017613294, z: -0.008218521}
---- !u!114 &3086250981654035167
+--- !u!95 &1873650062402920739
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8866636397529635097}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8115cbe232a113b4da1a5a8697b38ed7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6095040187955711289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47837,7 +48161,13 @@ MonoBehaviour:
     variables:
       floatVariables: []
       intVariables: []
-      boolVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: Bool/OnOff
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       stringVariables:
       - useVariable: 1
         name: String/Fsm
@@ -47870,7 +48200,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -47913,7 +48243,7 @@ MonoBehaviour:
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
-  fsmTemplate: {fileID: 11400000, guid: c7ce930cbb3ec6e4b91c5b8e8eccc708, type: 2}
+  fsmTemplate: {fileID: 11400000, guid: 4872f6fa322b1fd4bb67d8b08fd944cc, type: 2}
   eventHandlerComponentsAdded: 1
 --- !u!1 &8870576882565196369
 GameObject:
@@ -48203,7 +48533,8 @@ GameObject:
   - component: {fileID: 1455296687645283064}
   - component: {fileID: 2540586868606241378}
   - component: {fileID: 4013670558722000211}
-  - component: {fileID: 7273162142604689495}
+  - component: {fileID: 7650776732019261400}
+  - component: {fileID: 4337601235559095796}
   m_Layer: 0
   m_Name: "\u76F4\u6D41\u4FDD\u96AA\u5EA71"
   m_TagString: Untagged
@@ -48287,7 +48618,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.05783403, y: 0.03915989, z: 0.026862657}
   m_Center: {x: -0.000061453335, y: 0.017613294, z: -0.008218521}
---- !u!114 &7273162142604689495
+--- !u!95 &7650776732019261400
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8921110594572926569}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8115cbe232a113b4da1a5a8697b38ed7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4337601235559095796
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48362,7 +48712,13 @@ MonoBehaviour:
     variables:
       floatVariables: []
       intVariables: []
-      boolVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: Bool/OnOff
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       stringVariables:
       - useVariable: 1
         name: String/Fsm
@@ -48395,7 +48751,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -48438,7 +48794,7 @@ MonoBehaviour:
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
-  fsmTemplate: {fileID: 11400000, guid: c7ce930cbb3ec6e4b91c5b8e8eccc708, type: 2}
+  fsmTemplate: {fileID: 11400000, guid: 4872f6fa322b1fd4bb67d8b08fd944cc, type: 2}
   eventHandlerComponentsAdded: 1
 --- !u!1 &8935302899725434578
 GameObject:
@@ -49699,15 +50055,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9934b2292411c8446aefb6329d264cb0, type: 3}
---- !u!1 &2211611516806014729 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1038982615644646044, guid: 9934b2292411c8446aefb6329d264cb0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1214298287489453461}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9192846162529351596 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8019082701199079993, guid: 9934b2292411c8446aefb6329d264cb0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1214298287489453461}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2211611516806014729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1038982615644646044, guid: 9934b2292411c8446aefb6329d264cb0,
     type: 3}
   m_PrefabInstance: {fileID: 1214298287489453461}
   m_PrefabAsset: {fileID: 0}
@@ -49990,15 +50346,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9934b2292411c8446aefb6329d264cb0, type: 3}
---- !u!1 &3393449441971332879 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1038982615644646044, guid: 9934b2292411c8446aefb6329d264cb0,
-    type: 3}
-  m_PrefabInstance: {fileID: 2413016147998592403}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5635481273541572522 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8019082701199079993, guid: 9934b2292411c8446aefb6329d264cb0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2413016147998592403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3393449441971332879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1038982615644646044, guid: 9934b2292411c8446aefb6329d264cb0,
     type: 3}
   m_PrefabInstance: {fileID: 2413016147998592403}
   m_PrefabAsset: {fileID: 0}
@@ -50530,15 +50886,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9934b2292411c8446aefb6329d264cb0, type: 3}
---- !u!4 &6468791694528710891 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8019082701199079993, guid: 9934b2292411c8446aefb6329d264cb0,
-    type: 3}
-  m_PrefabInstance: {fileID: 3930590238628573906}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4100377721356212302 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1038982615644646044, guid: 9934b2292411c8446aefb6329d264cb0,
+    type: 3}
+  m_PrefabInstance: {fileID: 3930590238628573906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6468791694528710891 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8019082701199079993, guid: 9934b2292411c8446aefb6329d264cb0,
     type: 3}
   m_PrefabInstance: {fileID: 3930590238628573906}
   m_PrefabAsset: {fileID: 0}
@@ -53978,7 +54334,7 @@ PrefabInstance:
     - target: {fileID: 1479543382272597094, guid: 9934b2292411c8446aefb6329d264cb0,
         type: 3}
       propertyPath: fsm.variables.stringVariables.Array.data[1].value
-      value: Level_SolarPanels
+      value: Level_EngineRoom
       objectReference: {fileID: 0}
     - target: {fileID: 1479543382272597094, guid: 9934b2292411c8446aefb6329d264cb0,
         type: 3}
@@ -54042,15 +54398,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9934b2292411c8446aefb6329d264cb0, type: 3}
---- !u!4 &1987780136587079041 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8019082701199079993, guid: 9934b2292411c8446aefb6329d264cb0,
-    type: 3}
-  m_PrefabInstance: {fileID: 8421593565488666552}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8841893820437429540 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1038982615644646044, guid: 9934b2292411c8446aefb6329d264cb0,
+    type: 3}
+  m_PrefabInstance: {fileID: 8421593565488666552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1987780136587079041 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8019082701199079993, guid: 9934b2292411c8446aefb6329d264cb0,
     type: 3}
   m_PrefabInstance: {fileID: 8421593565488666552}
   m_PrefabAsset: {fileID: 0}

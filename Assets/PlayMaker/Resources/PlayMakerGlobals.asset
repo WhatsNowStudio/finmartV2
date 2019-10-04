@@ -75,3 +75,4 @@ MonoBehaviour:
   - SpaceResetDone
   - ForceJump
   - Level_SolarPanels
+  - OnOffChange
