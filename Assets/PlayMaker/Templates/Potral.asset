@@ -36,7 +36,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u547C\u53EB\u50B3\u9001"
+        toState: "\u547C\u53EB\u50B3\u9001\u529F\u80FD"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -107,14 +107,14 @@ MonoBehaviour:
         - storeCollider
         paramDataPos: 0000000000000000000000000000000000000000
         paramByteDataSize: 0000000004000000000000000000000000000000
-    - name: "\u547C\u53EB\u50B3\u9001"
+    - name: "\u547C\u53EB\u50B3\u9001\u529F\u80FD"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 189
         y: 117
-        width: 100
+        width: 102
         height: 16
       isBreakpoint: 0
       isSequence: 0
@@ -306,9 +306,15 @@ MonoBehaviour:
         paramDataPos: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000200000000000000000000000100000000000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
     - name: Go
       isSystemEvent: 0
       isGlobal: 0
+    - name: Process
+      isSystemEvent: 0
+      isGlobal: 1
     - name: TouchPortal
       isSystemEvent: 0
       isGlobal: 1
