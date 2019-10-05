@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8569727974163673781}
   - component: {fileID: 5454247468408671137}
   m_Layer: 0
-  m_Name: "\u9A57\u96FB\u7B46"
-  m_TagString: Untagged
+  m_Name: Prefab
+  m_TagString: Take
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

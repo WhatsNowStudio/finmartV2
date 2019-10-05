@@ -16,6 +16,8 @@ TagManager:
   - TestBroad
   - DC
   - AC
+  - Take
+  - Touch
   layers:
   - Default
   - TransparentFX
@@ -29,7 +31,7 @@ TagManager:
   - Floor
   - SpaceRest
   - RedLight
-  - 
+  - Touch
   - 
   - 
   - 
