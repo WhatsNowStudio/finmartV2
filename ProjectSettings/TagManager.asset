@@ -18,6 +18,7 @@ TagManager:
   - AC
   - Take
   - Touch
+  - Bag
   layers:
   - Default
   - TransparentFX
