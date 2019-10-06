@@ -5533,7 +5533,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 010101
+        actionIsOpen: 000000
         actionStartIndex: 00000000050000000c000000
         actionHashCodes: 5f9135045552ad05f6e5be03
         unityObjectParams: []
@@ -5788,13 +5788,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetRotation
         - HutongGames.PlayMaker.Actions.SetRotation
+        - HutongGames.PlayMaker.Actions.PlaySound
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000008000000
-        actionHashCodes: 6ab44904979e4104
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000800000011000000
+        actionHashCodes: 6ab44904979e41049cdc3905
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -5814,6 +5816,14 @@ MonoBehaviour:
             showInInspector: 1
             networkSync: 0
             value: {fileID: 8511205267289781118}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Bag
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 8511205267289781118}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -5821,7 +5831,14 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams: []
-        fsmObjectParams: []
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.AudioClip
+          value: {fileID: 8300000, guid: ec74d73e93df00b42b79571424faf43a, type: 3}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -5862,10 +5879,22 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.45054945
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
         - useVariable: 1
           name: 
           tooltip: 
@@ -5899,7 +5928,7 @@ MonoBehaviour:
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000230000001c0000000f0000000f0000000f000000070000000100000014000000230000001c0000000f0000000f0000000f000000070000000100000001000000
+        paramDataType: 14000000230000001c0000000f0000000f0000000f000000070000000100000014000000230000001c0000000f0000000f0000000f000000070000000100000001000000140000001c000000180000000f000000
         paramName:
         - gameObject
         - quaternion
@@ -5918,8 +5947,12 @@ MonoBehaviour:
         - space
         - everyFrame
         - lateUpdate
-        paramDataPos: 000000000000000000000000000000000100000002000000000000000400000001000000010000000100000003000000040000000500000005000000090000000a000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000400000001000000000000000000000000000000000000000000000000000000040000000100000001000000
+        - gameObject
+        - position
+        - clip
+        - volume
+        paramDataPos: 000000000000000000000000000000000100000002000000000000000400000001000000010000000100000003000000040000000500000005000000090000000a00000002000000020000000000000006000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000040000000100000000000000000000000000000000000000000000000000000004000000010000000100000000000000000000000000000000000000
     - name: "\u5DF2\u958B\u555F?"
       description: "#\u70BA\u4E86\u62FF\u53D6\u5B89\u5168\u6263\u800C\u505A\u7684\u6A5F\u5236"
       colorIndex: 0
