@@ -25,7 +25,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 55
-        y: 200
+        y: 248
         width: 100
         height: 32
       isBreakpoint: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 246
-        y: 280
+        y: 328
         width: 100
         height: 32
       isBreakpoint: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 57
-        y: 102
+        y: 150
         width: 100
         height: 32
       isBreakpoint: 0
@@ -434,7 +434,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 241
-        y: 215
+        y: 263
         width: 100
         height: 32
       isBreakpoint: 0
@@ -556,8 +556,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 229.38144
-        y: 100.51546
+        x: 235.38281
+        y: 104.515625
         width: 100
         height: 16
       isBreakpoint: 0
@@ -603,6 +603,93 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
+    - name: "\u91CD\u8A2D"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 247
+        y: 183
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Touch?
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetAnimatorBool
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 5f913504
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnOff
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 0000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000110000000100000007000000
+        paramName:
+        - gameObject
+        - parameter
+        - Value
+        - everyFrame
+        - everyFrameOption
+        paramDataPos: 0000000000000000000000000000000001000000
+        paramByteDataSize: 0000000000000000000000000100000004000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -617,6 +704,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 1
     - name: Process
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Reset
       isSystemEvent: 0
       isGlobal: 1
     - name: Rest
@@ -639,6 +729,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u66AB\u505C"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Reset
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u91CD\u8A2D"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
