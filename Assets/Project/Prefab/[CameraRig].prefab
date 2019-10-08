@@ -13940,8 +13940,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.043
-  m_Center: {x: 0, y: -0.035, z: 0.016}
+  m_Radius: 0.01
+  m_Center: {x: 0, y: -0.055, z: 0.026}
 --- !u!114 &6363035608371211296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14124,8 +14124,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.043
-  m_Center: {x: 0, y: -0.035, z: 0.016}
+  m_Radius: 0.01
+  m_Center: {x: 0, y: -0.055, z: 0.026}
 --- !u!114 &2640153751821641797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14634,6 +14634,7 @@ GameObject:
   - component: {fileID: 529852299}
   - component: {fileID: 845296844}
   - component: {fileID: 6413523793315416457}
+  - component: {fileID: 7281768807956994668}
   m_Layer: 0
   m_Name: '[CameraRig]'
   m_TagString: Untagged
@@ -17314,7 +17315,7 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: Fail&SlantControl
-    startState: State 1
+    startState: "\u505C\u7528\u7269\u7406"
     states:
     - name: "\u5075\u6E2C"
       description: "#\u662F\u5426\u589C\u843D\n#\u50BE\u659C\u6821\u6B63"
@@ -18030,12 +18031,12 @@ MonoBehaviour:
         paramDataPos: 00000000000000000000000001000000010000000100000002000000030000000200000002000000040000000500000003000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000000000004000000000000000000000001000000020000000100000005000000090000000000000000000000030000000a000000030000000000000000000000010000000100000001000000020000000b000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000040000000400000001000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u555F\u7528VR"
-      description: "#\u505C\u7528\u7269\u7406"
+      description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 59.796875
-        y: 112.515625
+        x: 55.796875
+        y: 115.515625
         width: 100
         height: 16
       isBreakpoint: 0
@@ -18044,8 +18045,6 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.SetRigidBodyConstraints
-        - HutongGames.PlayMaker.Actions.ColliderSetIsTrigger
         - HutongGames.PlayMaker.Actions.SetParent
         - HutongGames.PlayMaker.Actions.SetParent
         - HutongGames.PlayMaker.Actions.AnimatorPlay
@@ -18055,12 +18054,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        - 
-        actionEnabled: 010101010101
-        actionIsOpen: 000000000000
-        actionStartIndex: 000000000b0000000e00000012000000160000001b000000
-        actionHashCodes: 5050f303a8a7c802ea32a105ea32a105c34b4105b2cf1000
+        actionEnabled: 01010101
+        actionIsOpen: 00000000
+        actionStartIndex: 0000000004000000080000000d000000
+        actionHashCodes: ea32a105ea32a105c34b4105b2cf1000
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -18076,22 +18073,6 @@ MonoBehaviour:
           networkSync: 0
           value: {fileID: 1088829869276721207}
         fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: Obj/Fail
-            tooltip: 
-            showInInspector: 1
-            networkSync: 0
-            value: {fileID: 4404049921651644760}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: Obj/Fail
-            tooltip: 
-            showInInspector: 1
-            networkSync: 0
-            value: {fileID: 4404049921651644760}
         - ownerOption: 1
           gameObject:
             useVariable: 1
@@ -18161,72 +18142,6 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 1
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
           value: 0
         - useVariable: 0
           name: 
@@ -18264,27 +18179,13 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00000000
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001100000011000000110000001100000011000000110000001100000011000000110000000100000014000000110000001100000014000000130000001100000011000000140000001300000011000000110000001400000012000000100000000f000000010000001400000011000000110000000100000001000000
+        paramDataType: 14000000130000001100000011000000140000001300000011000000110000001400000012000000100000000f000000010000001400000011000000110000000100000001000000
         paramName:
-        - gameObject
-        - freezeAll
-        - freezePosition
-        - freezeRotation
-        - freezePositionX
-        - freezePositionY
-        - freezePositionZ
-        - freezeRotationX
-        - freezeRotationY
-        - freezeRotationZ
-        - everyFrame
-        - gameObject
-        - isTrigger
-        - resetOnExit
         - gameObject
         - parent
         - resetLocalPosition
@@ -18303,8 +18204,8 @@ MonoBehaviour:
         - recursive
         - resetOnExit
         - everyFrame
-        paramDataPos: 000000000000000001000000020000000300000004000000050000000600000007000000080000000000000001000000090000000a00000002000000000000000b0000000c00000003000000010000000d0000000e0000000400000000000000000000000000000001000000050000000f000000100000000200000003000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000100000001000000
+        paramDataPos: 000000000000000000000000010000000100000001000000020000000300000002000000000000000000000000000000000000000300000004000000050000000100000002000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000100000001000000
     - name: "\u8A2D\u5B9A"
       description: "#\u6821\u6B63\u589C\u843D\u7403\u8F14\u52A9\n#\u7D66\u5730\u677F\u8A0A\u606F\n#\u547C\u53EB\u95DC\u5361"
       colorIndex: 0
@@ -19755,7 +19656,7 @@ MonoBehaviour:
         - sendEvent
         paramDataPos: 0000000000000000000000000000000001000000
         paramByteDataSize: 0000000000000000000000000100000000000000
-    - name: State 1
+    - name: "\u505C\u7528\u7269\u7406"
       description: 
       colorIndex: 0
       position:
@@ -19778,16 +19679,36 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.SetRigidBodyConstraints
+        - HutongGames.PlayMaker.Actions.ColliderSetIsTrigger
         - HutongGames.PlayMaker.Actions.NextFrameEventAdvance
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 66e6a403
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 000001
+        actionStartIndex: 000000000b0000000e000000
+        actionHashCodes: 5050f303a8a7c80266e6a403
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Fail
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 4404049921651644760}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Fail
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 4404049921651644760}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -19807,7 +19728,73 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 5
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -19815,17 +19802,31 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Go
-        byteData: 
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1000000017000000
+        paramDataType: 14000000110000001100000011000000110000001100000011000000110000001100000011000000010000001400000011000000110000001000000017000000
         paramName:
+        - gameObject
+        - freezeAll
+        - freezePosition
+        - freezeRotation
+        - freezePositionX
+        - freezePositionY
+        - freezePositionZ
+        - freezeRotationX
+        - freezeRotationY
+        - freezeRotationZ
+        - everyFrame
+        - gameObject
+        - isTrigger
+        - resetOnExit
         - frameCount
         - sendEvent
-        paramDataPos: 0000000000000000
-        paramByteDataSize: 0000000000000000
+        paramDataPos: 000000000000000001000000020000000300000004000000050000000600000007000000080000000000000001000000090000000a0000000000000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -19891,7 +19892,7 @@ MonoBehaviour:
         name: Rest
         isSystemEvent: 0
         isGlobal: 1
-      toState: "\u555F\u7528VR"
+      toState: "\u505C\u7528\u7269\u7406"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -21037,6 +21038,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetFSMs:
   - {fileID: 392277574}
+--- !u!114 &7281768807956994668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744929773379188326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1079068393, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetFSMs:
+  - {fileID: 8396036813227844632}
 --- !u!1 &1744929773379333936
 GameObject:
   m_ObjectHideFlags: 0
