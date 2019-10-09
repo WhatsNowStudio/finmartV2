@@ -22580,6 +22580,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1744929773378906014}
     m_Modifications:
+    - target: {fileID: 8399645001927205191, guid: e5a5ee79fc4a67742a4e16041d2d9792,
+        type: 3}
+      propertyPath: m_Name
+      value: ResetPointEffect
+      objectReference: {fileID: 0}
     - target: {fileID: 1563660246725751266, guid: e5a5ee79fc4a67742a4e16041d2d9792,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22634,11 +22639,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8399645001927205191, guid: e5a5ee79fc4a67742a4e16041d2d9792,
-        type: 3}
-      propertyPath: m_Name
-      value: ResetPointEffect
       objectReference: {fileID: 0}
     - target: {fileID: 5198574748877496744, guid: e5a5ee79fc4a67742a4e16041d2d9792,
         type: 3}
