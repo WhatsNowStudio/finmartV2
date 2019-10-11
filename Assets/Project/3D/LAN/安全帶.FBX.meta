@@ -41,6 +41,50 @@ ModelImporter:
     100070: "\u5B89\u5168\u7D22\u52FE_\u56FA\u5B9A"
     100072: "\u9396\u6263_\u53EF\u52D5"
     100074: "\u9396\u6263_\u56FA\u5B9A"
+    100076: Bone025
+    100078: Bone026
+    100080: Bone027
+    100082: Bone028
+    100084: Bone029
+    100086: Bone030
+    100088: Bone031
+    100090: Bone032
+    100092: Bone033
+    100094: Bone034
+    100096: Bone035
+    100098: Bone036
+    100100: Bone037
+    100102: Bone038
+    100104: Bone039
+    100106: Bone040
+    100108: Bone041
+    100110: Bone042
+    100112: Bone043
+    100114: Bone044
+    100116: Bone045
+    100118: Bone046
+    100120: Bone047
+    100122: Bone048
+    100124: Bone049
+    100126: Bone050
+    100128: Bone051
+    100130: Bone052
+    100132: Bone053
+    100134: Bone054
+    100136: Bone055
+    100138: Bone056
+    100140: Bone057
+    100142: Bone058
+    100144: Bone059
+    100146: Bone060
+    100148: Bone061
+    100150: Bone062
+    100152: Bone063
+    100154: Bone064
+    100156: Bone065
+    100158: Bone066
+    100160: "\u53F3\u6263\u5E36"
+    100162: "\u5DE6\u6263\u5E36"
     400000: //RootNode
     400002: "\u5B89\u5168\u5E36"
     400004: "\u5B89\u5168\u5E36_Collinder"
@@ -79,6 +123,50 @@ ModelImporter:
     400070: "\u5B89\u5168\u7D22\u52FE_\u56FA\u5B9A"
     400072: "\u9396\u6263_\u53EF\u52D5"
     400074: "\u9396\u6263_\u56FA\u5B9A"
+    400076: Bone025
+    400078: Bone026
+    400080: Bone027
+    400082: Bone028
+    400084: Bone029
+    400086: Bone030
+    400088: Bone031
+    400090: Bone032
+    400092: Bone033
+    400094: Bone034
+    400096: Bone035
+    400098: Bone036
+    400100: Bone037
+    400102: Bone038
+    400104: Bone039
+    400106: Bone040
+    400108: Bone041
+    400110: Bone042
+    400112: Bone043
+    400114: Bone044
+    400116: Bone045
+    400118: Bone046
+    400120: Bone047
+    400122: Bone048
+    400124: Bone049
+    400126: Bone050
+    400128: Bone051
+    400130: Bone052
+    400132: Bone053
+    400134: Bone054
+    400136: Bone055
+    400138: Bone056
+    400140: Bone057
+    400142: Bone058
+    400144: Bone059
+    400146: Bone060
+    400148: Bone061
+    400150: Bone062
+    400152: Bone063
+    400154: Bone064
+    400156: Bone065
+    400158: Bone066
+    400160: "\u53F3\u6263\u5E36"
+    400162: "\u5DE6\u6263\u5E36"
     2100000: blackSoft
     2100002: red
     2100004: black
@@ -105,6 +193,7 @@ ModelImporter:
     2300032: "\u5B89\u5168\u7D22\u52FE_\u56FA\u5B9A"
     2300034: "\u9396\u6263_\u53EF\u52D5"
     2300036: "\u9396\u6263_\u56FA\u5B9A"
+    2300038: "\u53F3\u6263\u5E36"
     3300000: "\u5B89\u5168\u5E36"
     3300002: "\u5B89\u5168\u5E36_Collinder"
     3300004: "\u5B89\u5168\u5E36_\u4E0B\u53F3"
@@ -124,6 +213,7 @@ ModelImporter:
     3300032: "\u5B89\u5168\u7D22\u52FE_\u56FA\u5B9A"
     3300034: "\u9396\u6263_\u53EF\u52D5"
     3300036: "\u9396\u6263_\u56FA\u5B9A"
+    3300038: "\u53F3\u6263\u5E36"
     4300000: "\u5B89\u5168\u5E36"
     4300002: "\u5B89\u5168\u5E36_Collinder"
     4300004: "\u5B89\u5168\u5E36_\u4E2D\u53F3"
@@ -143,12 +233,15 @@ ModelImporter:
     4300032: Object005
     4300034: Object006
     4300036: "\u9396\u6263_\u53EF\u52D5"
+    4300038: "\u5DE6\u6263\u5E36"
+    4300040: "\u53F3\u6263\u5E36"
     7400000: Take 001
     9500000: //RootNode
     13700000: "\u5B89\u5168\u5E36_\u4E0B\u53F3"
     13700002: "\u5B89\u5168\u5E36_\u4E0B\u5DE6"
     13700004: "\u5B89\u5168\u5E36_\u4E2D\u53F3"
     13700006: "\u5B89\u5168\u5E36_\u4E2D\u5DE6"
+    13700008: "\u5DE6\u6263\u5E36"
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -170,7 +263,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
