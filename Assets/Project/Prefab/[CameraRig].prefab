@@ -1187,7 +1187,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 010000000000
+        actionIsOpen: 000001010000
         actionStartIndex: 000000000400000005000000090000000b0000000f000000
         actionHashCodes: 5e69bb045c004505ea32a105d97b7202184b5704184b5704
         unityObjectParams: []
@@ -2134,7 +2134,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -25
+          value: -80
         - useVariable: 1
           name: Float/Speed
           tooltip: 
@@ -2263,7 +2263,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -25
+          value: -80
         - useVariable: 1
           name: Float/Speed
           tooltip: 
@@ -3823,7 +3823,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 010000000000
+        actionIsOpen: 000001010000
         actionStartIndex: 000000000400000005000000090000000b0000000f000000
         actionHashCodes: 5e69bb045c004505ea32a105d97b7202184b5704184b5704
         unityObjectParams: []
@@ -4770,7 +4770,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -25
+          value: -80
         - useVariable: 1
           name: Float/Speed
           tooltip: 
@@ -4899,7 +4899,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -25
+          value: -80
         - useVariable: 1
           name: Float/Speed
           tooltip: 
@@ -14221,7 +14221,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4344010422246690790
 Transform:
   m_ObjectHideFlags: 0
@@ -18227,7 +18227,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000000
+        actionIsOpen: 01010101
         actionStartIndex: 0000000004000000080000000d000000
         actionHashCodes: ea32a105ea32a105c34b4105b2cf1000
         unityObjectParams: []
@@ -20064,7 +20064,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 5
+          value: 20
         fsmBoolParams:
         - useVariable: 0
           name: 
@@ -21472,7 +21472,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7547652919359529393
 Transform:
   m_ObjectHideFlags: 0

@@ -33215,8 +33215,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -33572,8 +33572,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -42781,8 +42781,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -48751,7 +48751,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 256.96094
+        x: 272.96094
         y: 101.38281
         width: 100
         height: 16
@@ -48830,7 +48830,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 264.89844
+        x: 280.89844
         y: 410.9297
         width: 100
         height: 96
@@ -48894,7 +48894,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 000000000001
+        actionIsOpen: 000000000101
         actionStartIndex: 00000000050000000a0000000f0000001400000018000000
         actionHashCodes: 9c5124009c5124009c51240068fece05a4c8bf0048c01101
         unityObjectParams: []
@@ -49065,7 +49065,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 438.89844
+        x: 454.89844
         y: 337.9297
         width: 100
         height: 64
@@ -49194,7 +49194,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 783.90625
+        x: 799.90625
         y: 486.9297
         width: 100
         height: 32
@@ -49571,7 +49571,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 776.39844
+        x: 792.39844
         y: 364.9297
         width: 100
         height: 32
@@ -49663,7 +49663,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 605.46094
+        x: 621.46094
         y: 494.32812
         width: 100
         height: 32
@@ -49772,7 +49772,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 604.4297
+        x: 620.4297
         y: 585.1953
         width: 100
         height: 32
@@ -49881,7 +49881,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 605.89844
+        x: 621.89844
         y: 325.9297
         width: 100
         height: 32
@@ -49958,7 +49958,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 604.89844
+        x: 620.89844
         y: 394.9297
         width: 100
         height: 32
@@ -50035,7 +50035,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 441.89844
+        x: 457.89844
         y: 477.9297
         width: 100
         height: 48
@@ -50152,7 +50152,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 438.14062
+        x: 454.14062
         y: 553.9297
         width: 100
         height: 48
@@ -50269,7 +50269,7 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 417.4453
+        x: 433.4453
         y: 120.96875
         width: 100
         height: 32
@@ -50569,7 +50569,7 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 948.39844
+        x: 964.39844
         y: 504.89844
         width: 100
         height: 32
@@ -50641,7 +50641,7 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 937.5547
+        x: 953.5547
         y: 560.0547
         width: 100
         height: 16
@@ -50786,19 +50786,27 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 98.39844
+        x: 61.398438
         y: 474.89844
         width: 100
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: Go
+          name: Done
           isSystemEvent: 0
           isGlobal: 0
         toState: "\u5224\u65B7\u78B0\u649E"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: Go
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u64AD\u653E\u95DC\u5361\u5EE3\u64AD"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -50806,13 +50814,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetFsmBool
         - HutongGames.PlayMaker.Actions.BoolTest
+        - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0101
-        actionStartIndex: 0000000005000000
-        actionHashCodes: 68fece05a4c8bf00
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000009000000
+        actionHashCodes: 68fece05a4c8bf0048c01101
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -50847,7 +50857,13 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 5
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
@@ -50869,13 +50885,14 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
+        - Done
         - Go
-        byteData: 0101
+        byteData: 010100
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001200000012000000110000000100000011000000170000001700000001000000
+        paramDataType: 1400000012000000120000001100000001000000110000001700000017000000010000000f0000001700000001000000
         paramName:
         - gameObject
         - fsmName
@@ -50886,14 +50903,17 @@ MonoBehaviour:
         - isTrue
         - isFalse
         - everyFrame
-        paramDataPos: 000000000000000001000000000000000000000001000000000000000100000001000000
-        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000001000000
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000001000000000000000000000001000000000000000100000001000000000000000200000002000000
+        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000
     - name: "\u64AD\u653E\u95DC\u5361\u5EE3\u64AD"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 253
+        x: 269
         y: 636
         width: 102
         height: 96
@@ -51045,7 +51065,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 63
+        x: 79
         y: 618
         width: 100
         height: 32
@@ -51138,7 +51158,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 62.015625
+        x: 78.015625
         y: 671.9219
         width: 100
         height: 32
@@ -51231,7 +51251,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 58.015625
+        x: 74.015625
         y: 723.9219
         width: 100
         height: 32
@@ -51324,7 +51344,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 72.015625
+        x: 88.015625
         y: 769.9219
         width: 100
         height: 32
@@ -51417,7 +51437,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 440
+        x: 456
         y: 232
         width: 100
         height: 32
@@ -51700,7 +51720,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -55580,7 +55600,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -57207,7 +57227,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101
-        actionIsOpen: 0000000000
+        actionIsOpen: 0000010001
         actionStartIndex: 000000000200000006000000090000000d000000
         actionHashCodes: d97b7202184b570411ab5a02184b570411ab5a02
         unityObjectParams: []
@@ -57316,7 +57336,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: 
-          value: {fileID: 2100000, guid: 1fa2f58d84337c94cb5694786148d250, type: 2}
+          value: {fileID: 2100000, guid: 2537ad89f59e94e4a87f05ecb9bfa4ad, type: 2}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -57579,7 +57599,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000000
+        actionIsOpen: 00000001
         actionStartIndex: 0000000002000000080000000c000000
         actionHashCodes: d97b7202ef8d8504184b570411ab5a02
         unityObjectParams: []
@@ -57661,7 +57681,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: 
-          value: {fileID: 2100000, guid: 1fa2f58d84337c94cb5694786148d250, type: 2}
+          value: {fileID: 2100000, guid: 2537ad89f59e94e4a87f05ecb9bfa4ad, type: 2}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -57749,7 +57769,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 000000000000
+        actionIsOpen: 000000010001
         actionStartIndex: 0000000004000000070000000b0000000e00000012000000
         actionHashCodes: 184b570411ab5a02184b570411ab5a02184b570411ab5a02
         unityObjectParams: []
@@ -57878,14 +57898,14 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           typeName: 
-          value: {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
+          value: {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           typeName: 
-          value: {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
+          value: {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
@@ -59495,7 +59515,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -84942,8 +84962,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -85132,8 +85152,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -87050,8 +87070,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -90250,8 +90270,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -91644,8 +91664,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -98678,8 +98698,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -106683,8 +106703,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -108730,8 +108750,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -114699,8 +114719,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a359c53b6c69924198748860a0e139b, type: 2}
-  - {fileID: 2100000, guid: d96f2bd08d15b3d4580ab52cad81339e, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
+  - {fileID: 2100000, guid: ddfee433b904d8348bd399edce8804bf, type: 2}
   - {fileID: 2100000, guid: 295b63aeeda786e40a8c7e0ec1c19fdd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
