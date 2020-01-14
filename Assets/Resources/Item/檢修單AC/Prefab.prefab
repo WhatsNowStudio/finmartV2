@@ -18229,7 +18229,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 64
-        y: 125.58594
+        y: 109.58594
         width: 100
         height: 32
       isBreakpoint: 0
@@ -18362,7 +18362,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 226.73438
-        y: 117
+        y: 101
         width: 114.8
         height: 32
       isBreakpoint: 0
@@ -18452,8 +18452,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 389.73438
-        y: 115
+        x: 395.73438
+        y: 165
         width: 100
         height: 32
       isBreakpoint: 0
@@ -18474,15 +18474,17 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetEventData
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SendEvent
+        - HutongGames.PlayMaker.Actions.SetIntValue
         customNames:
         - 
         - 
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010101
-        actionStartIndex: 00000000030000001000000014000000
-        actionHashCodes: 27fbe10327ffbc035e69bb045e69bb04
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0000000001
+        actionStartIndex: 0000000003000000100000001400000018000000
+        actionHashCodes: 27fbe10327ffbc035e69bb045e69bb04603dd905
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -18620,6 +18622,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 1
+          name: Int/Count
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmBoolParams:
         - useVariable: 1
           name: Bool/Complete?
@@ -18682,12 +18696,12 @@ MonoBehaviour:
         stringParams:
         - Complete
         - Rest
-        byteData: 000000
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 11000000110000000100000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f000000010000001f000000170000000f00000001000000
+        paramDataType: 11000000110000000100000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f000000010000001f000000170000000f00000001000000100000001000000001000000
         paramName:
         - boolVariable
         - boolValue
@@ -18713,15 +18727,18 @@ MonoBehaviour:
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 000000000100000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000001000000020000000000000000000000010000000100000001000000010000000200000002000000
-        paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000
+        - intVariable
+        - intValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000001000000020000000000000000000000010000000100000001000000010000000200000002000000010000000200000003000000
+        paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000001000000000000000000000001000000
     - name: "\u547C\u53EB\u4E3B\u908F\u8F2F  "
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 591.58594
-        y: 116.22656
+        y: 100.22656
         width: 100
         height: 32
       isBreakpoint: 0
@@ -18857,7 +18874,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 592.58594
-        y: 167.22656
+        y: 151.22656
         width: 100
         height: 16
       isBreakpoint: 0
@@ -18954,7 +18971,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 231.73438
-        y: 163
+        y: 147
         width: 100
         height: 16
       isBreakpoint: 0
@@ -19051,7 +19068,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 386.3047
-        y: 458.85938
+        y: 442.85938
         width: 100
         height: 48
       isBreakpoint: 0
@@ -19147,7 +19164,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 457.9453
-        y: 535.5703
+        y: 519.5703
         width: 128.4
         height: 32
       isBreakpoint: 0
@@ -19224,7 +19241,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 285
-        y: 534.1406
+        y: 518.1406
         width: 128.4
         height: 32
       isBreakpoint: 0
@@ -19301,7 +19318,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 390
-        y: 913.02344
+        y: 897.02344
         width: 100
         height: 16
       isBreakpoint: 0
@@ -19499,7 +19516,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 384
-        y: 596.0156
+        y: 580.0156
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19637,7 +19654,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 386.5
-        y: 646.0156
+        y: 630.0156
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19775,7 +19792,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 393.5
-        y: 846.0156
+        y: 830.0156
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19913,7 +19930,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 396.5
-        y: 798.0156
+        y: 782.0156
         width: 100
         height: 32
       isBreakpoint: 0
@@ -20051,7 +20068,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 390.5
-        y: 748.0156
+        y: 732.0156
         width: 100
         height: 32
       isBreakpoint: 0
@@ -20189,7 +20206,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 388.5
-        y: 696.0156
+        y: 680.0156
         width: 100
         height: 32
       isBreakpoint: 0
@@ -20327,7 +20344,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 70
-        y: 214
+        y: 198
         width: 100
         height: 16
       isBreakpoint: 0
@@ -20412,7 +20429,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 389.35938
-        y: 281.84375
+        y: 265.84375
         width: 102
         height: 48
       isBreakpoint: 0
@@ -20437,13 +20454,17 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GetNextChild
+        - HutongGames.PlayMaker.Actions.IntAdd
+        - HutongGames.PlayMaker.Actions.GetChild
+        - HutongGames.PlayMaker.Actions.IntCompare
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 57d56a01
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000007000000
+        actionHashCodes: 603dd905184b570409faa102
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -20467,20 +20488,50 @@ MonoBehaviour:
         fsmEventTargetParams: []
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: Int/Count
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Untagged
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams:
+        fsmIntParams:
         - useVariable: 1
-          name: 
+          name: Int/Count
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: Int/Count
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 6
+        fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -20488,28 +20539,37 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Go
+        - Go
         - Done
-        byteData: 
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000013000000170000001700000011000000
+        paramDataType: 10000000100000000100000014000000120000001200000013000000100000001000000017000000170000001700000001000000
         paramName:
+        - intVariable
+        - add
+        - everyFrame
         - gameObject
-        - storeNextChild
-        - loopEvent
-        - finishedEvent
-        - resetFlag
-        paramDataPos: 0000000000000000000000000100000000000000
-        paramByteDataSize: 0000000000000000000000000000000000000000
+        - childName
+        - withTag
+        - storeResult
+        - integer1
+        - integer2
+        - equal
+        - lessThan
+        - greaterThan
+        - everyFrame
+        paramDataPos: 00000000010000000000000000000000000000000100000000000000020000000300000000000000010000000200000001000000
+        paramByteDataSize: 00000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u662F\u5426\u70BA\u984C\u76EE"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 526.4844
-        y: 381.79688
+        x: 536.3594
+        y: 338.3125
         width: 100
         height: 48
       isBreakpoint: 0
@@ -20622,7 +20682,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 701
-        y: 300
+        y: 284
         width: 114
         height: 32
       isBreakpoint: 0
@@ -20729,7 +20789,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 714
-        y: 407
+        y: 391
         width: 114
         height: 32
       isBreakpoint: 0
@@ -20911,7 +20971,13 @@ MonoBehaviour:
         showInInspector: 0
         networkSync: 0
         value: 0
-      intVariables: []
+      intVariables:
+      - useVariable: 1
+        name: Int/Count
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       boolVariables:
       - useVariable: 1
         name: Bool/Complete?
@@ -21011,7 +21077,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -21021,7 +21087,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
